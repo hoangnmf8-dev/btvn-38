@@ -4,7 +4,6 @@ import {cn} from "../../lib/utils"
 export default function Header() {
   const [active, setActive] = useState(true);
   const handleChangeTab = (e) => {
-    console.log(+e.target.dataset.navBtn)
     setActive(+e.target.dataset.navBtn);
   }
   return (
@@ -24,7 +23,7 @@ export default function Header() {
             </div>
             <div>
               <Button className={cn("px-4 py-6 rounded-full hover:cursor-pointer")}>
-                <img src="/public/header_img/Male User.svg" alt="login_logo" />
+                <img src="/header_img/Male User.svg" alt="login_logo" />
                 <span>Login/Signup</span>
               </Button>
             </div>
