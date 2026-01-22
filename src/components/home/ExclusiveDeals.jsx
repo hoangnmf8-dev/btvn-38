@@ -48,7 +48,7 @@ export default function ExclusiveDeals() {
             </TabsList>
           </div>
           <TabsContent value="vegan" className={cn("flex gap-6")}>
-            {veganData && veganData?.map(item => (<Card key={item.id} className={cn("basis-1/3 relative p-0 rounded-xl overflow-hidden")}>
+            {veganData && veganData?.map(item => (<Card key={item.id} className={cn("basis-1/3 relative p-0 rounded-xl overflow-hidden hover:cursor-pointer hover:scale-95 transition-all duration-150")}>
               <CardHeader className={cn("absolute inset-0 p-0")}>
                 <div className='absolute bottom-12 left-11.5'>
                   <CardTitle className={cn("text-web-orange")}>{item.restaurantName}</CardTitle>
@@ -61,7 +61,7 @@ export default function ExclusiveDeals() {
               </CardContent>
             </Card>))}
           </TabsContent>
-          <TabsContent value="sushi" className={cn("flex gap-6")}>{sushiData && sushiData?.map(item => (<Card key={item.id} className={cn("basis-1/3 relative p-0 rounded-xl overflow-hidden")}>
+          <TabsContent value="sushi" className={cn("flex gap-6")}>{sushiData && sushiData?.map(item => (<Card key={item.id} className={cn("basis-1/3 relative p-0 rounded-xl overflow-hidden  hover:cursor-pointer hover:scale-95 transition-all duration-150")}>
               <CardHeader className={cn("absolute inset-0 p-0")}>
                 <div className='absolute bottom-12 left-11.5'>
                   <CardTitle className={cn("text-web-orange")}>{item.restaurantName}</CardTitle>
@@ -74,7 +74,8 @@ export default function ExclusiveDeals() {
               </CardContent>
             </Card>))}</TabsContent>
           <TabsContent value="pizza" className={cn("flex gap-6")}>
-            <Card className={cn("basis-1/3 relative p-0")}>
+            {/* Demo */}
+            <Card className={cn("basis-1/3 relative p-0  hover:cursor-pointer hover:scale-95 transition-all duration-150")}>
               <CardHeader className={cn("absolute inset-0 p-0")}>
                 <div className='absolute bottom-12 left-11.5'>
                   <CardTitle className={cn("text-web-orange")}>Restaurant</CardTitle>
@@ -86,7 +87,7 @@ export default function ExclusiveDeals() {
                 <img src="/exclusive_img/exclusive_img_1.png" alt="exclusive_img_1" />
               </CardContent>
             </Card>
-            <Card className={cn("basis-1/3 relative p-0")}>
+            <Card className={cn("basis-1/3 relative p-0  hover:cursor-pointer hover:scale-95 transition-all duration-150")}>
               <CardHeader className={cn("absolute inset-0 p-0")}>
                 <div className='absolute bottom-12 left-11.5'>
                   <CardTitle className={cn("text-web-orange")}>Restaurant</CardTitle>
@@ -98,7 +99,7 @@ export default function ExclusiveDeals() {
                 <img src="/exclusive_img/exclusive_img_2.png" alt="exclusive_img_1" />
               </CardContent>
             </Card>
-            <Card className={cn("basis-1/3 relative p-0")}>
+            <Card className={cn("basis-1/3 relative p-0  hover:cursor-pointer hover:scale-95 transition-all duration-150")}>
               <CardHeader className={cn("absolute inset-0 p-0")}>
                 <div className='absolute bottom-12 left-11.5'>
                   <CardTitle className={cn("text-web-orange")}>Restaurant</CardTitle>

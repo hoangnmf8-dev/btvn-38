@@ -31,7 +31,7 @@ export default function Partner() {
             </Card>
           </div>
           <div className='basis-1/2'>
-            <Card className={cn("relative p-0 gap-0")}>
+            <Card className={cn("relative p-0 gap-0 group")}>
               <CardHeader className={cn("absolute inset-0 p-0")}>
                 <div className='absolute bottom-10 left-10'>
                   <CardDescription className={cn("text-web-orange text-[18px]")}>Signup as a rider</CardDescription>
@@ -40,7 +40,7 @@ export default function Partner() {
                 </div>
                 <div className={cn("absolute left-15 top-0 px-5 py-2 font-bold bg-white rounded-b-md text-web-black")}>Avail exclusive perks</div>
               </CardHeader>
-              <CardContent className={cn("w-full p-0")}>
+              <CardContent className={cn("w-full p-0 overflow-hidden")}>
                 <img src="/partner_img/img_2.png" alt="img_2.png" />
               </CardContent>
             </Card>

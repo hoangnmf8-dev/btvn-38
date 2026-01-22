@@ -38,34 +38,34 @@ export default function AboutUs() {
               <div className='flex-1'>
                 <TabsContent value="work" className={cn('flex flex-col gap-6')}>
                   <div className='flex gap-2'>
-                    <Card className={cn("basis-1/3 p-5 bg-gray-300")}>
+                    <Card className={cn("basis-1/3 p-5 bg-gray-300 hover:cursor-pointer hover:scale-95 transition-all duration-200 group")}>
                       <CardHeader className={cn("p-0 text-center")}>
                         <CardTitle className={cn('font-bold')}>Place an Order!</CardTitle>
                       </CardHeader>
                       <CardContent className={cn("p-0 flex justify-center")}>
-                        <img src="/about_us_img/igm_1.png" alt="igm_1" />
+                        <img className='group-hover:rotate-5 group-hover:translate-x-2 group-hover:-translate-y-2 transition-all duration-200' src="/about_us_img/igm_1.png" alt="igm_1" />
                       </CardContent>
                       <CardFooter className={cn("p-0")}>
                         <p className='text-center'>Place order through our website or Mobile app</p>
                       </CardFooter>
                     </Card>
-                    <Card className={cn("basis-1/3 p-5 bg-gray-300")}>
+                    <Card className={cn("basis-1/3 p-5 bg-gray-300 hover:cursor-pointer hover:scale-95 transition-all duration-200  group")}>
                       <CardHeader className={cn("p-0 text-center")}>
                         <CardTitle className={cn('font-bold')}>Track Progress</CardTitle>
                       </CardHeader>
                       <CardContent className={cn("p-0 flex justify-center")}>
-                        <img src="/about_us_img/img_2.png" alt="igm_2" />
+                        <img className='group-hover:rotate-5 group-hover:translate-x-2 group-hover:-translate-y-2 transition-all duration-200' src="/about_us_img/img_2.png" alt="igm_2" />
                       </CardContent>
                       <CardFooter className={cn("p-0")}>
                         <p className='text-center'>Your can track your order status with delivery time</p>
                       </CardFooter>
                     </Card>
-                    <Card className={cn("basis-1/3 p-5 bg-gray-300")}>
+                    <Card className={cn("basis-1/3 p-5 bg-gray-300 hover:cursor-pointer hover:scale-95 transition-all duration-200  group")}>
                       <CardHeader className={cn("p-0 text-center")}>
                         <CardTitle className={cn('font-bold')}>Place an Order!</CardTitle>
                       </CardHeader>
                       <CardContent className={cn("p-0 flex justify-center")}>
-                        <img src="/about_us_img/img_3.png" alt="igm_3" />
+                        <img className='group-hover:rotate-5 group-hover:translate-x-2 group-hover:-translate-y-2 transition-all duration-200' src="/about_us_img/img_3.png" alt="igm_3" />
                       </CardContent>
                       <CardFooter className={cn("p-0")}>
                         <p className='text-center'>Place order through our website or Mobile app</p>

@@ -26,10 +26,10 @@ export default function MobileApp() {
             </div>
             <p className='text-[20px] mb-6'>Download the Order.uk app for faster ordering</p>
             <div className='flex justify-center gap-2'>
-              <a href='#' className='block w-51.5 bg-web-black px-5 py-2 rounded-sm'>
+              <a href='#' className='block w-51.5 bg-web-black px-5 py-2 rounded-sm hover:scale-95 transition-all duration-95'>
                 <img className='w-full ' src="/mobile_app_img/apple.png" alt="apple.png" />
               </a>
-              <a href='#' className='block w-51.5 bg-web-black px-5 py-2 rounded-sm'>
+              <a href='#' className='block w-51.5 bg-web-black px-5 py-2 rounded-sm hover:scale-95 transition-all duration-95'>
                 <img className='w-full ' src="/mobile_app_img/android.png" alt="apple.png" />
               </a>
             </div>
