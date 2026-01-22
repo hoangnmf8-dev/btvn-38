@@ -14,7 +14,7 @@ import {cn} from "../../lib/utils"
 export default function ExclusiveDeals() {
   return (
     <div className='mt-13.5'>
-      <div className='max-w-350 h-152.5 mx-auto'>
+      <div className='max-w-350 mx-auto'>
         <Tabs defaultValue="pizza" className="w-full"> 
           {/*/* dể defaultValue là gì thì sẽ tab đó sẽ tự động active */}
           <div className='flex justify-between mb-9 items-center'>
