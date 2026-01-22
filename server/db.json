@@ -1,0 +1,48 @@
+{
+  "sushi": [
+    {
+      "id": 1,
+      "restaurantName": "Sushi Master London",
+      "description": "Premium Sushi & Rolls",
+      "discount": "-20%",
+      "image": "/exclusive_img/sushi_1.jpg"
+    },
+    {
+      "id": 2,
+      "restaurantName": "Zen Sushi Soho",
+      "description": "Authentic Japanese",
+      "discount": "-15%",
+      "image": "/exclusive_img/sushi_2.jpg"
+    },
+    {
+      "id": 3,
+      "restaurantName": "Oishii Rolls",
+      "description": "Fresh Sushi & Sashimi",
+      "discount": "-10%",
+      "image": "/exclusive_img/sushi_3.jpg"
+    }
+  ],
+  "vegan": [
+    {
+      "id": 1,
+      "restaurantName": "Green Leaf Kitchen",
+      "description": "Organic Vegan Meals",
+      "discount": "-25%",
+      "image": "/exclusive_img/vegan_1.jpg"
+    },
+    {
+      "id": 2,
+      "restaurantName": "Grand Ai Cafe London",
+      "description": "Healthy Vegan Food",
+      "discount": "-20%",
+      "image": "/exclusive_img/vegan_2.jpg"
+    },
+    {
+      "id": 3,
+      "restaurantName": "The Vegan Garden",
+      "description": "Plant-based Specialty",
+      "discount": "-30%",
+      "image": "/exclusive_img/vegan_3.jpg"
+    }
+  ]
+}
